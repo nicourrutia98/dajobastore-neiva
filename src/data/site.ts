@@ -2,10 +2,10 @@ import type { ContactInfo } from "../types";
 
 export const brand = {
   name: "DajobaStore",
-  tagline: "Accesorios para celulares con estilo y respaldo",
-  heroTitle: "Potencia tu celular con accesorios confiables y listos para entrega",
+  tagline: "Accesorios, mantenimiento y reparacion para celulares",
+  heroTitle: "Accesorios confiables y servicio tecnico para mantener tu celular en forma",
   heroText:
-    "Encuentra fundas, cargadores, cables, audifonos y mas con una experiencia clara, moderna y compra asistida por WhatsApp.",
+    "Encuentra fundas, cargadores, cables, audifonos y mas, y ademas agenda mantenimiento o reparacion de celulares con atencion directa por WhatsApp.",
   primaryColor: "#0A5BFF",
   darkColor: "#0C1F45",
   accentColor: "#5CAFFF"
@@ -48,7 +48,8 @@ export const testimonials = [
 export const blogHighlights = [
   "Guias cortas para elegir accesorios segun tu tipo de uso.",
   "Consejos para prolongar la vida util de cables y cargadores.",
-  "Contenido simple y comercial listo para adaptarse a Gamma."
+  "Contenido simple y comercial listo para adaptarse a Gamma.",
+  "Soporte visible para promocionar mantenimiento y reparacion de celulares."
 ];
 
 export const storeGallery = [

@@ -12,7 +12,7 @@ export default function HomePage() {
       <section className="hero">
         <div className="container hero-grid">
           <div>
-            <span className="eyebrow">Accesorios para celulares</span>
+            <span className="eyebrow">Accesorios y servicio tecnico</span>
             <h1>{brand.heroTitle}</h1>
             <p>{brand.heroText}</p>
             <div className="hero-actions">
@@ -21,7 +21,7 @@ export default function HomePage() {
               </Link>
               <a
                 className="button button-secondary"
-                href={buildWhatsAppUrl("Hola, quiero asesoria para elegir accesorios para mi celular.")}
+                href={buildWhatsAppUrl("Hola, quiero asesoria para accesorios o reparacion de mi celular.")}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -45,6 +45,27 @@ export default function HomePage() {
               className="hero-image"
             />
           </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container promo-banner">
+          <div>
+            <span className="eyebrow">Mantenimiento y reparacion</span>
+            <h2>Tambien atendemos fallas, mantenimiento y servicio tecnico de celulares</h2>
+            <p>
+              Si tu equipo presenta danos de carga, bateria, pantalla, audio o
+              rendimiento, puedes escribirnos para revision y diagnostico.
+            </p>
+          </div>
+          <a
+            className="button"
+            href={buildWhatsAppUrl("Hola, necesito mantenimiento o reparacion para mi celular.")}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Solicitar revision
+          </a>
         </div>
       </section>
 
@@ -111,13 +132,13 @@ export default function HomePage() {
             <span className="eyebrow">Venta asistida</span>
             <h2>Convierte visitas en conversaciones utiles</h2>
             <p>
-              El foco de esta v1 es reducir friccion: el usuario navega, compara y
-              finaliza su interes por WhatsApp con mensaje prellenado.
+              El foco de esta v1 es reducir friccion: el usuario navega, compara,
+              consulta reparaciones y finaliza su interes por WhatsApp con mensaje prellenado.
             </p>
           </div>
           <a
             className="button"
-            href={buildWhatsAppUrl("Hola, quiero una recomendacion para comprar accesorios para mi celular.")}
+            href={buildWhatsAppUrl("Hola, quiero una recomendacion para comprar accesorios o revisar mi celular.")}
             target="_blank"
             rel="noreferrer"
           >
