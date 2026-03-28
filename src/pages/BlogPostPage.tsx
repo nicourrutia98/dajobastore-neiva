@@ -1,9 +1,37 @@
+import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { blogPosts } from "../data/mock";
 
 export default function BlogPostPage() {
   const { slug } = useParams();
   const post = blogPosts.find((item) => item.slug === slug);
+
+  useEffect(() => {
+    const previousTitle = document.title;
+    const title = document.querySelector("title");
+    const description = document.querySelector('meta[name="description"]');
+    const previousDescription = description?.getAttribute("content") || "";
+
+    if (!title || !description) {
+      return;
+    }
+
+    if (post) {
+      title.textContent = `${post.title} | DajobaStore`;
+      description.setAttribute("content", post.excerpt);
+    } else {
+      title.textContent = "Articulo no encontrado | DajobaStore";
+      description.setAttribute(
+        "content",
+        "Explora articulos de DajobaStore sobre accesorios, mantenimiento y cuidado para tu celular."
+      );
+    }
+
+    return () => {
+      document.title = previousTitle;
+      description.setAttribute("content", previousDescription);
+    };
+  }, [post]);
 
   if (!post) {
     return (

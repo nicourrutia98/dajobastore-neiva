@@ -2,18 +2,18 @@ import type { ContactInfo } from "../types";
 
 export const brand = {
   name: "DajobaStore",
-  tagline: "Accesorios para celulares con estilo y respaldo",
-  heroTitle: "Potencia tu celular con accesorios confiables y listos para entrega",
+  tagline: "Accesorios, mantenimiento y reparacion de celulares",
+  heroTitle: "Accesorios, mantenimiento y reparacion para tu celular en un solo lugar",
   heroText:
-    "Encuentra fundas, cargadores, cables, audifonos y mas con una experiencia clara, moderna y compra asistida por WhatsApp.",
+    "Encuentra fundas, cargadores, cables, audifonos y mas, y tambien recibe mantenimiento y reparacion de celulares con una experiencia clara, moderna y atencion por WhatsApp.",
   primaryColor: "#0A5BFF",
   darkColor: "#0C1F45",
   accentColor: "#5CAFFF"
 };
 
 export const contactInfo: ContactInfo = {
-  phone: "+57 323 711 9144",
-  whatsapp: "573237119144",
+  phone: "+57 320 8847267",
+  whatsapp: "573208847267",
   email: "lindaok6119@gmail.com",
   address: "Calle 52 #1W - 06",
   city: "Neiva, Huila, Colombia",
@@ -48,7 +48,7 @@ export const testimonials = [
 export const blogHighlights = [
   "Guias cortas para elegir accesorios segun tu tipo de uso.",
   "Consejos para prolongar la vida util de cables y cargadores.",
-  "Contenido simple y comercial listo para adaptarse a Gamma."
+  "Contenido simple, educativo y comercial listo para adaptarse a Gamma."
 ];
 
 export const storeGallery = [

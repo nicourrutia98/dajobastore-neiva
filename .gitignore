@@ -7,3 +7,5 @@ img/converted/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.playwright-cli/
+vite*.log

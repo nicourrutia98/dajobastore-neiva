@@ -55,11 +55,11 @@ Hablar por WhatsApp
 - Cables que duran mas: lo que realmente importa
 
 ## Contacto
-- Telefono: +57 323 711 9144
+- Telefono: +57 320 8847267
 - Email: lindaok6119@gmail.com
 - Direccion: Calle 52 #1W - 06, Neiva, Huila
 - Horario: Lunes a sabado, 9:00 a.m. a 7:00 p.m.
-- WhatsApp principal: +57 323 711 9144
+- WhatsApp principal: +57 320 8847267
 
 ## Prompt corto para Gamma
 Crea un sitio web profesional para DajobaStore, una tienda colombiana de accesorios para celulares. Usa una identidad visual limpia y tecnologica con azul como color principal, fondos claros, tarjetas elegantes y llamadas a la accion visibles hacia catalogo y WhatsApp. Incluye hero, categorias, productos destacados, beneficios, testimonios, blog y contacto con ubicacion. Mantener el tono comercial, simple y confiable.

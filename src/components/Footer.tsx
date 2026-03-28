@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logoImage from "../../1.jpeg";
 import { categories } from "../data/mock";
 import { brand, contactInfo } from "../data/site";
 
@@ -7,10 +8,11 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="container footer-grid">
         <div>
+          <img src={logoImage} alt="Logo de DajobaStore" className="footer-logo" />
           <h3>{brand.name}</h3>
           <p>
-            {brand.name} vende accesorios para celulares con una experiencia simple,
-            asesorada y lista para escalar.
+            {brand.name} vende accesorios y tambien ofrece mantenimiento y
+            reparacion de celulares con una experiencia simple y asesorada.
           </p>
         </div>
 

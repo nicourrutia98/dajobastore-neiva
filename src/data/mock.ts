@@ -218,18 +218,36 @@ export const products: Product[] = [
 export const blogPosts: BlogPost[] = [
   {
     id: "blog-1",
-    slug: "como-elegir-cargador-ideal",
-    title: "Como elegir el cargador ideal para tu celular",
-    excerpt: "No todos los cargadores entregan la misma seguridad o velocidad. Esta guia resume lo esencial.",
-    image: articleImage("photo-1585338107529-13afc5f02586"),
+    slug: "7-senales-de-que-tu-celular-necesita-mantenimiento-urgente",
+    title: "7 señales de que tu celular necesita mantenimiento urgente",
+    excerpt:
+      "Descubre 7 señales claras de que tu celular necesita mantenimiento urgente y evita daños mayores, malos gastos y fallas más costosas.",
+    image: articleImage("photo-1511707171634-5f897ff02aa9"),
     author: "Equipo DajobaStore",
-    date: "15 Mar 2026",
-    readTime: "4 min",
+    date: "28 Mar 2026",
+    readTime: "6 min",
     content: [
-      "Elegir un cargador va mas alla del conector. Debes revisar potencia, tecnologia de carga y calidad de materiales.",
-      "Para la mayoria de usuarios, un cargador entre 20W y 35W cubre carga diaria, buena velocidad y compatibilidad con equipos recientes.",
-      "Los modelos GaN ayudan a reducir tamano y calor, algo clave si quieres un cargador para llevar a la oficina o en el bolso.",
-      "Si tienes dudas, en DajobaStore te orientamos por WhatsApp segun tu modelo de celular y tus accesorios actuales."
+      "Muchas personas solo buscan ayuda cuando el celular ya no prende, no carga o deja de funcionar por completo.",
+      "El problema es que, casi siempre, el celular avisa antes.",
+      "Detectar esas señales a tiempo puede ayudarte a evitar daños mayores, ahorrar dinero, prolongar la vida útil del equipo y prevenir reparaciones más costosas.",
+      "Aquí te mostramos 7 señales claras de que tu celular necesita mantenimiento urgente.",
+      "1. La batería se descarga demasiado rápido.",
+      "Si antes te duraba varias horas y ahora se descarga muy rápido, es una señal clara de desgaste. También debes prestar atención si el porcentaje baja de golpe, se apaga sin aviso, tarda demasiado en cargar o se calienta mientras carga. Una batería en mal estado no solo afecta el rendimiento, también puede empeorar con el tiempo.",
+      "2. El celular se calienta más de lo normal.",
+      "Es normal que un celular se caliente un poco con el uso, pero no es normal que se ponga demasiado caliente por tareas simples. Si se calienta al cargar, al usar WhatsApp o redes, sin estarlo usando o con aplicaciones básicas, puede haber una falla que necesita revisión.",
+      "3. El puerto de carga falla o carga de forma intermitente.",
+      "Si tienes que mover el cable, ponerlo en cierta posición o insistir varias veces para que cargue, tu celular necesita atención. Ignorar esto puede dañar más el puerto y terminar en una reparación más costosa.",
+      "4. El celular está más lento de lo normal.",
+      "Cuando el equipo se pone lento, se congela, se traba o responde con retraso, algo no está funcionando bien. A veces parece un problema menor, pero puede ser señal de saturación, fallas internas o falta de mantenimiento.",
+      "5. La pantalla tiene fallas visibles.",
+      "No solo hablamos de una pantalla rota. También hay señales como líneas en la pantalla, zonas que no responden al tacto, parpadeos, manchas, o una imagen borrosa o inestable. Entre más rápido revises esto, mejor.",
+      "6. El audio, micrófono o parlante fallan.",
+      "Si no te escuchan bien, no escuchas llamadas o el sonido se oye mal, puede haber suciedad, desgaste o daño en componentes clave. Esto afecta directamente el uso diario del celular.",
+      "7. Tu celular ya presenta golpes, suciedad o desgaste evidente.",
+      "A veces el equipo sigue funcionando, pero ya muestra señales de descuido: suciedad acumulada, vidrio protector roto, funda deteriorada, golpes fuertes, botones duros o entradas sucias. Todo eso puede terminar afectando su funcionamiento si no se corrige a tiempo.",
+      "¿Por qué no deberías dejar pasar estas señales? Porque un problema pequeño puede convertirse en uno grande. Lo que hoy puede resolverse con mantenimiento o una revisión simple, mañana puede convertirse en una falla más grave, una reparación más costosa, pérdida de tiempo o la necesidad de comprar otro equipo antes de lo pensado.",
+      "En Dajoba Store te ayudamos a detectar fallas, cuidar tu equipo y encontrar una solución clara según lo que realmente necesitas.",
+      "No se trata solo de arreglar cuando ya todo falló. Se trata de prevenir, proteger y prolongar la vida útil de tu celular."
     ]
   },
   {

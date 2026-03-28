@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import logoImage from "../../1.jpeg";
 import { brand } from "../data/site";
 import { useAuth } from "../context/AuthContext";
 import { useCart } from "../context/CartContext";
@@ -11,7 +12,7 @@ export default function Header() {
     <header className="site-header">
       <div className="container nav-shell">
         <Link to="/" className="brand-lockup" aria-label={brand.name}>
-          <img src="/logo-mark.svg" alt="" width="42" height="42" />
+          <img src={logoImage} alt="Logo de DajobaStore" className="brand-logo" />
           <div>
             <strong>{brand.name}</strong>
             <span>{brand.tagline}</span>

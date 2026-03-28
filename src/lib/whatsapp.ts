@@ -1,6 +1,6 @@
 import type { Product } from "../types";
 
-const fallbackNumber = "573237119144";
+const fallbackNumber = "573208847267";
 
 export const getWhatsappNumber = () =>
   import.meta.env.VITE_WHATSAPP_NUMBER || fallbackNumber;

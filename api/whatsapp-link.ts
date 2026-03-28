@@ -16,7 +16,7 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(405).json({ message: "Metodo no permitido." });
   }
 
-  const phone = req.body?.phone || "573237119144";
+  const phone = req.body?.phone || "573208847267";
   const message = encodeURIComponent(req.body?.message || "Hola, quiero comprar en DajobaStore.");
 
   return res.status(200).json({
